@@ -48,6 +48,9 @@ submitButton.addEventListener('click', function() {
     if (userText.value === c) {
         output.classList.add("correctCaptcha");
         output.innerHTML = "Correct!";
+	document.write('<form>');
+	document.write('<a href="default.asp" target="_blank">Decrypted File</a>');
+	document.write('</form>');
     } else {
         output.classList.add("incorrectCaptcha");
         output.innerHTML = "Incorrect, please try again";
