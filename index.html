@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="/assets/dcode.css">
+    <link rel="stylesheet" href="keyboard/Keyboard.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="center">
+        <h1 id="captchaHeading">Validate with us</h1>
+        <div id="captchaBackground">
+            <canvas id="captcha">captcha text</canvas>
+            <input id="textBox" class="use-keyboard-input" type="text" name="text">
+            <div id="buttons">
+                <input id="submitButton" type="submit">
+                <button id="refreshButton" type="submit">Refresh</button>
+            </div>
+            <span id="output"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
