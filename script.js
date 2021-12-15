@@ -47,7 +47,9 @@ userText.addEventListener('keyup', function(e) {
 submitButton.addEventListener('click', function() {
     if (userText.value === c) {
         output.classList.add("correctCaptcha");
-        output.innerHTML = "Correct!" && a.href="default.asp";
+        output.innerHTML = "Correct!";
+	a.title = "dec";
+	a.href="www.google.com";
     } else {
         output.classList.add("incorrectCaptcha");
         output.innerHTML = "Incorrect, please try again";
