@@ -49,7 +49,7 @@ submitButton.addEventListener('click', function() {
         output.classList.add("correctCaptcha");
         output.innerHTML = "Correct!";
         let btn = document.createElement("button");
-        btn.innerHTML = "Submit";
+        btn.innerHTML = "Decryted File";
         btn.type = "submit";
         btn.name = "formBtn";
         document.body.appendChild(btn);
